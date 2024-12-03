@@ -33,20 +33,21 @@
   <div class="row">
     <div class="col mt-5">
     <?php
-    if (isset($_REQUEST["page"])) {
-        switch ($_REQUEST["page"]) {
-            case "novo":
-                include("novo-usuario.php");
-                break;
-            case "listar":
-                include("listar-usuario.php");
-                break;
-            case "deletar":
-                include("deletar-usuario.php");
-                break;
-            default:
-                print "<h1>Página não encontrada.</h1>";
-                break;
+        include("config.php");
+        if (isset($_REQUEST["page"])) {
+            switch ($_REQUEST["page"]) {
+                case "novo":
+                    include("novo-usuario.php");
+                    break;
+                case "listar":
+                    include("listar-usuario.php");
+                    break;
+                case "deletar":
+                    include("deletar-usuario.php");
+                    break;
+                default:
+                    print "<h1>Página não encontrada.</h1>";
+                    break;
         } 
     } else {
         print "<h1>Bem Vindo!</h1>"; 
