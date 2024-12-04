@@ -45,6 +45,12 @@
                 case "deletar":
                     include("deletar-usuario.php");
                     break;
+                case "salvar";
+                    include("salvar-usuario.php");
+                    break;
+                case "editar";
+                    include("editar-usuario.php");
+                    break;
                 default:
                     print "<h1>Página não encontrada.</h1>";
                     break;
