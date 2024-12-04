@@ -1,5 +1,10 @@
 # CRUD em PHP com MySQL e Bootstrap
 
+<span align="center
+  <img src="">
+<span>
+
+
 Este é um projeto simples de CRUD (Create, Read, Update, Delete) desenvolvido em PHP, utilizando MySQL como banco de dados e Bootstrap para a interface do usuário.
 
 ## Funcionalidades
