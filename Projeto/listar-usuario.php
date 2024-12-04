@@ -22,7 +22,7 @@
             print "<td>" . $row->email . "</td>";
             print "<td>" . $row->data_nasc . "</td>";
             print "<td>" . $row->cidade . "</td>";
-            print "<td>
+            print "<td class= 'btn-container'>
                     <button onclick=\"location.href='?page=editar&id=" . $row->idUsuarios . "';\" class='btn btn-success btn-sm'>Editar</button>
                     <button onclick=\"if(confirm('Tem certeza que deseja excluir?')) { location.href='?page=salvar&acao=excluir&id=" . $row->idUsuarios . "'; } else { return false; }\" class='btn btn-danger btn-sm'>Excluir</button>
                 </td>";

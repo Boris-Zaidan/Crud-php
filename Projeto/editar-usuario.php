@@ -6,7 +6,7 @@ $res = $conn->query($sql);
 $row = $res->fetch_object();
 ?>
 
-<div class="container-sm">
+<div class="container-md">
 <form action="?page=salvar" method="POST">
     <input type="hidden" name="acao" value="editar">
     <input type="hidden" name="id" value="<?php print $row->idUsuarios; ?>">
@@ -35,4 +35,3 @@ $row = $res->fetch_object();
         <button type="submit" class="btn btn-secondary">Atualizar</button>
     </div>
 </div>
-</form>
