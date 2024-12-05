@@ -10,9 +10,9 @@
 <body>
 <nav class="navbar navbar-expand-md bg-body-secondary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Cadastro</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+       <a class="navbar-brand" href="#">Cadastro</a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
@@ -56,7 +56,10 @@
                     break;
         } 
     } else {
-        print "<h1>Bem Vindo!</h1>"; 
+        print "<div class='container overflow-hidden col-sm-8 col-md-10 col-lg-8 col-xl-8 col-xxl-6'>       
+                  <img src='../img/home.svg' class='img-fluid ' alt='Imagem da Home'>  
+                 </div>
+"; 
     }
 ?>
 
